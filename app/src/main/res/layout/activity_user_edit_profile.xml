@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:src="@drawable/wttgeditprofile"
+        android:layout_marginBottom="30dp"
+        />
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이름" />
+
+    <EditText
+        android:id="@+id/useredit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="연락처" />
+
+    <EditText
+        android:id="@+id/useredit_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:inputType="number"
+        android:hint="ex) 01012345678"
+        android:maxLength="11"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="생년월일"
+        android:maxLength="6"
+        />
+
+    <EditText
+        android:id="@+id/useredit_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:inputType="number"
+        android:hint="ex) 950101"
+        android:maxLength="6" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/clickbtn"
+        android:text="EDITPROFILE"
+        android:layout_marginBottom="30dp"
+        android:textColor="#ffffff"
+        android:id="@+id/btnusereditprofilecomplet"
+        />
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "743048004989",
+    "firebase_url": "https://wattagam-644e3.firebaseio.com",
+    "project_id": "wattagam-644e3",
+    "storage_bucket": "wattagam-644e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743048004989:android:6f950200b097d3556cb814",
+        "android_client_info": {
+          "package_name": "com.example.wttg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743048004989-1kd0mvt43arp10r2tgjc4n73avdbgifv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWiWllcl2LAotIOG3SpC2S5h0Y75TDnJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743048004989-1kd0mvt43arp10r2tgjc4n73avdbgifv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
